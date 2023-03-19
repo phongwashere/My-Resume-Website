@@ -7,12 +7,12 @@ app = flask.Flask(__name__)
 def firstpage():
     return flask.render_template("index.html")
 
-@app.route('/info')
-def infopage():
-    return flask.render_template("info.html")
+@app.route('/certificates')
+def certificatepage():
+    return flask.render_template("certificates.html")
 
-@app.route('/DjKhaled')
-def Khaledpage():
-    return flask.render_template("DjKhaled.html")    
+@app.route('/projects')
+def projectspage():
+    return flask.render_template("projects.html")    
 
 app.run(debug=True)
