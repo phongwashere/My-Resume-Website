@@ -41,6 +41,29 @@
       padding: 5px;
       border-radius: 25px;
     }
+    .flex-container {
+      display: flex;
+      flex-direction:column;
+      justify-content: center;
+    }
+    .flex-container div h1 {
+      margin: auto;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      text-align:center;
+      border: 2px solid #A84448;
+      width: 300px;
+      height: 50px;
+    }
+    .flex-container div {
+      margin-top: 10px;
+    }
+    iframe {
+      border-radius: 25px;
+      margin: auto;
+      width: 1280px;
+      height: 720px;
+    }
   </style>
   <!--Javascript-->
   <script>
@@ -71,26 +94,28 @@
       </div>
     </nav>
   </div>
-  <div>
+  <div class="flex-container">
     <!--top body-->
-    <div id="header1">
+    <div>
       <h1>
         About Me!
       </h1>
     </div>
-      <div>
-        <img src="./static/portrait.jpg">
-        <h3>Introduction:</h3>
-        <p>
-          My name is Phong Vu. I am a recent college graduate with a bachelors degree in Computer Science. I enjoy learning hands on and from observing others within my work environment.  I'm both an apple and windows type of guy. I love taking things apart, figuring out how it works, and then putting it back together. My peers say I'm funny, charismatic, relatable, and eager.
-        </p>
-      </div>
-      <div>
-        <h3>Hobbies:</h3>
-        <p>I enjoy playing sports like basketball and bowling.</p>
-        <p>I also used to sing for a traveling gospel choir between 2018 and 2019 until covid hit.</p>
-        <p>As of now, I just enjoy playing video games with my friends. I mainly play first person shooters.</p>
-      </div>
+    <div>
+      <img src="./static/portrait.jpg">
+      <h3>Introduction:</h3>
+      <p>
+        My name is Phong Vu. I am a recent college graduate with a bachelors degree in Computer Science. I enjoy learning hands on and from observing others within my work environment.  I'm both an apple and windows type of guy. I love taking things apart, figuring out how it works, and then putting it back together. My peers say I'm funny, charismatic, relatable, and eager.
+      </p>
+      <h3>Hobbies:</h3>
+      <p>I enjoy playing sports like basketball and bowling.</p>
+      <p>I also used to sing for a traveling gospel choir between 2018 and 2019 until covid hit.</p>
+      <p>As of now, I just enjoy playing video games with my friends. I mainly play first person shooters.</p>
+    </div>
+    <div>
+      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+    </div>
+    <iframe src="https://www.youtube.com/embed/3zeHBreluF8" title="a peaceful rainy day 🌧 calm your anxiety, relaxing music - lofi hip hop mix - aesthetic lofi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
 </body>
 
